@@ -2,9 +2,14 @@
 
 ## Running the application in dev
 
-You can run your application in dev mode below command:
+You can run your application in dev mode with below command:
 ```
 ./mvnw compile quarkus:dev
+
+```
+You can run the unit and integration with below command:
+```
+./mvnw clean test
 
 ```
 
